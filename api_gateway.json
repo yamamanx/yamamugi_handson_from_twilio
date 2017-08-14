@@ -1,0 +1,7 @@
+{
+  "param": {
+#foreach( $key in $input.params().querystring.keySet() )
+    "$key": "$input.params().querystring.get($key)"#if( $foreach.hasNext ),#end
+#end
+  }
+}

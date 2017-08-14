@@ -1,0 +1,7 @@
+#set($inputRoot = $input.path('$'))
+
+<Response>
+    <Say voice="alice" language="ja-JP">
+        $inputRoot.say
+    </Say>
+</Response>

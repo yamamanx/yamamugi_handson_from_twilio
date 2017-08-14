@@ -1,0 +1,8 @@
+<Response>
+    <Gather timeout="30" finishOnKey="#" action="https://******.execute-api.ap-northeast-1.amazonaws.com/****/****" method="GET">
+        <Say voice="alice" language="ja-JP">
+            お電話ありがとうございます。キャンペーンにお申し込まれる場合は 1 とシャープを。
+            お申し込まれない場合はそのままお電話をお切りください。
+        </Say>
+    </Gather>
+</Response>
